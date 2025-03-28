@@ -5,6 +5,13 @@ function Person(name, age) {
     this.age = age;
     console.log(2, this);
     // 默认返回this
+
+    this.eating = function() {
+        console.log(this.name, '在吃');
+    }
+    this.running = function()  {
+        console.log(this.name, '在跑');
+    }
 }
 
 var p1 = new Person('John', 25);
