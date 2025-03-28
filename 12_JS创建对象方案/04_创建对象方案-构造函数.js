@@ -6,6 +6,8 @@ function Person(name, age) {
     console.log(2, this);
     // 默认返回this
 
+
+    // 创建每个对象时，以下方法都会占用内存空间，浪费内存空间
     this.eating = function() {
         console.log(this.name, '在吃');
     }
