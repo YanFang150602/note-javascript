@@ -28,3 +28,5 @@ console.log(obj3.__proto__)
 
 var obj4 = Object.create(obj)
 console.log(obj4.__proto__)
+
+// 局限于对象
